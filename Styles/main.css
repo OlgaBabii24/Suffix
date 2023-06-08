@@ -1,0 +1,1625 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+@import url('./Fonts/fonts.css');
+
+.container{
+    width: 95%;
+    margin: 0 auto;
+}
+
+img{
+    display: block;
+}
+
+.header1{
+    background: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.X{
+    width: 33px;
+    height: 31px;
+    text-align: center;
+    margin-top: 33px;
+    position: relative;
+} 
+
+.X:hover .boxnav{
+    opacity: 1;
+}
+
+.X:hover{
+    cursor: pointer;
+}
+
+.navigation{
+    list-style: none;
+    display: block;
+}
+
+.boxnav{
+    background-color: white;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    width: 275px;
+    height: 290px;
+    padding-left: 54px;
+    padding-top: 47px;
+    box-shadow: 5px 5px 5px 0px rgb(0 0 0 / 50%);
+    opacity: 0;
+}
+
+.menu1:hover .boxnav{
+    opacity: 1;
+}
+
+.item{
+    font-family: 'Kanit-Italic', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    text-decoration-line: underline;
+    text-decoration-color: black;
+    margin-bottom: 17px;
+}
+
+.black{
+    color: black;
+}
+
+.name{
+    margin-top: 36px;
+}
+
+/* First line */
+
+.firstline{
+    width: 100%;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.philipmartin{
+    width: 50%;
+    /* height: 100%; */
+}
+
+.philipmartin img{
+    width: 100%;
+}
+
+.black1{
+    width: 50%;
+    background-color: black;
+}
+
+.container-black{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 80%;   
+}
+
+.dateline{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 77px;
+}
+
+.date{
+    font-family: 'Kanit', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 6px;
+    color: #FFFFFF;
+}
+
+.lifestyle{
+    font-family: 'Kanit', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+}
+
+.atvero{
+    line-height: 50px;
+    margin-top: 33px;
+}
+
+.atverotext{
+    font-family: 'Kanit', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    letter-spacing: 0.5px;
+}
+
+.atveo1{
+    line-height: 50px;
+    margin-top: 11px;
+}
+
+.atverotext1{
+    font-family: 'Kanit', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 40px;
+    color: #FFFFFF;
+    letter-spacing: 0.25px;
+}
+
+.readmore{
+    margin-top: 40px;
+    text-align: center;
+}
+
+.readmoreb{
+    width: 180px;
+    height: 60px;
+    background-color: rgb(0, 0, 0);
+    border: 1px white solid;
+}
+
+.textreadmore{
+    font-family: 'Kanit', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+
+}
+
+/* Second line */
+
+.container-small{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.container-smalladd{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.featured{
+    padding-top: 40px;
+}
+
+.featuredtext{
+    font-family: 'Kanit', sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    color: #1F1F1D;
+}
+
+.secondline{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding-top: 15px;
+    justify-content: space-between;
+}
+
+.photoleft{
+    width: 48%;
+}
+
+.photoleftf{
+    width: 100%;
+}
+
+.photorightf{
+    width: 100%;
+}
+
+.photoright{
+    width: 48%;
+}
+
+.line3{
+    width: 927px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-top: 15px;
+    margin-left: 121px;
+}
+
+.line3left, .line3right{
+    width: 50%;
+    height: 100%;
+}
+
+.line3right{
+    margin-left: 7px;
+}
+
+.dateline3{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding-top: 11px;
+    padding-bottom: 15px;
+}
+
+.date3{
+    font-family: 'Kanit', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 9px;
+    letter-spacing: 5.5px;
+    color: #000000;
+    margin-top: 8px;
+}
+
+.lifestyle3{
+    font-family: 'Kanit', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 8px;
+    text-decoration-line: underline;
+    color: #000000;
+    margin-top: 10px;
+}
+
+.atvero3{
+    width: 100%;
+    padding-top: 10px;
+}
+
+.atverotext3{
+    font-family: 'Kanit', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18.8px;
+    color: #1F1F1D;
+    line-height: 28px;
+}
+
+.atveo13{
+    height: 56px;
+    width: 88%;
+    margin-left: 0px;
+    margin-top: 11px;
+}
+
+.atverotext13{
+    font-family: 'Kanit', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14.5px;
+    line-height: 21px;
+    color: #1F1F1D;
+    letter-spacing: 0.1px;
+}
+
+.line4{
+    padding-top: 30px;
+}
+
+.line4 .container-small{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.photogirl{
+    width: 32%;
+}
+
+.photomagazine{
+    width: 32%;
+}
+
+.photoguys{
+    width: 32%;
+}
+
+.line4 img{
+    width: 100%;
+}
+.line5text{
+    width: 1100px;
+    height: 88px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.line5left{
+    height: 100%;
+    width: 290px;
+    margin-left: 121px;
+    background-color: #FFFFFF;
+}
+
+.line5middle{
+    height: 100%;
+    width: 290px;
+    margin-left: 22px;
+    background-color: #FFFFFF;
+}
+
+.line5right{
+    height: 100%;
+    width: 290px;
+    margin-left: 22px;
+    background-color: #FFFFFF;
+}
+
+.dateline4{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding: 8px 0 10px;
+}
+
+.date4{
+    font-family: 'Kanit', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 9px;
+    letter-spacing: 5.5px;
+    color: #1F1F1D;
+    margin-top: 8px;
+}
+
+.lifestyle4{
+    font-family: 'Kanit', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 8px;
+    text-decoration-line: underline;
+    color: #000000;
+    margin-top: 8px;
+}
+
+.atvero4{
+    height: 50px;
+    width: 100%;
+    margin-left: 1px;
+    margin-top: 7px;
+}
+
+.atverotext4{
+    font-family: 'Kanit', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13.2px;
+    color: #1F1F1D;
+    line-height: 28px;
+    text-transform: uppercase;
+}
+
+.seeall{
+    padding-top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.buttonseeall{
+    padding-top: 6px;
+    width: 192px;
+    height: 35px;
+    background-color: #303030;
+}
+
+.textseeall{
+    font-family: 'Kanit', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 9.5px;
+    color: #FFFFFF;
+    text-decoration: none;
+    border: 0;
+}
+
+.line7{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding-top: 50px;
+}
+
+.photowithcoffee{
+    width: 50%;
+}
+
+.photowithcoffee img{
+    width: 100%;
+}
+
+.blackissue{
+    width: 50%;
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.issue22{
+    margin: 0 auto;
+}
+
+.issue22text{
+    font-family: 'Kanit';
+    font-style: normal;
+    font-size: 35px;
+    line-height: 50px;
+    color: #FFFFFF;
+    letter-spacing: 1px;
+}
+
+.buttonsubsc{
+    width: 180px;
+    height: 60px;
+    margin-top: 12px;
+    background-color: #000000;
+    border: #FFFFFF 1px solid;
+}
+
+.textsubsc{
+    font-family: 'Kanit', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.interviews{
+    padding-top: 40px;
+}
+
+.line8{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+
+.photo81, .photo82, .photo83{
+    width: 32%;
+}
+
+.photo81f, .photo82f, .photo83f{
+    width: 100%;
+}
+
+.line8text{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.dataline8{
+    padding-top: 2px;
+}
+
+.line9{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding-top: 26px;
+}
+
+.photo91, .photo92, .photo93{
+    width: 32%;
+}
+
+.photo91f, .photo92f, .photo93f{
+    width: 100%;
+}
+
+.emptyfooter{
+    width: 100%;
+    height: 113px;
+    background-color: black;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 44px;
+}
+
+.suffixphoto{
+    width: 118px;
+}
+
+.textdecinedby{
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 300;
+    font-size: 9.7px;
+}
+
+.desinedby{
+    margin-top: 29px;
+}
+
+/* @media screen and (max-width: 1800px) and (min-width: 1376px){
+
+    .X{
+        width: 29px;
+        margin-left: 37px;
+    }
+    .name{
+        margin-left: 450px;
+    }
+    .firstline{
+        width: 1157px;
+    }
+    .philipmartin{
+        background-position:center;
+    }
+    .dateline{
+        margin-top: 75px;
+    }
+    .date{
+        margin-left: 80px;
+    }
+    .lifestyle{
+        margin-left: 151px;
+    }
+    .atvero{
+        margin-top: 17px;
+        padding-left: 85px;
+        width: 425px;
+        height: 50px;
+        line-height: 34px;
+    }
+    .atveo1{
+        width: 330px;
+        margin-top: 32px;
+        margin-left: 83px;
+    }
+    .readmore{
+        margin-top: 33px;
+        margin-left: 82px;
+    }
+    .secondline{
+        width: 872px;
+        height: 242px;
+        margin-top: 15px;
+    }
+    .photoleft{
+        width: 443px;
+    }
+    .photoright{
+        margin-left: 24px;
+    }
+    .line3{
+        width: 764px;
+    }
+    .lifestyle3{
+        margin-left: 218px;
+    }
+    .line4{
+        width: 914px;
+        height: 304px;
+        margin-top: 281px;
+    }
+    .photogirlf{
+        width: 289px;
+        height: 190px;
+    }
+    .photomagazinef{
+        width: 289px;
+        height: 190px;
+    }
+    .photoguysf{
+        width: 289px;
+        height: 190px;
+    }
+    .line5text{
+        width: 872px;
+    }
+    .line5left{
+        width: 250px;
+        margin-left: 119px;
+        margin-top: 7px;
+    }
+    .line5middle{
+        width: 250px;
+        margin-left: 21px;
+        margin-top: 7px;
+    }
+    .line5right{
+        width: 250px;
+        margin-left: 21px;
+        margin-top: 7px;
+    }
+    .lifestyle4{
+        margin-left: 145px;
+    }
+    .atvero4{
+        margin-left: 2px;
+        margin-top: 8px;
+    }
+    .atverotext4{
+        line-height: 23px;
+    }
+    .line6{
+        width: 980px;
+        height: 80px
+    }
+    .line7{
+        width: 919px;
+        margin-top: 18px;
+    }
+    .photowithcoffee{
+        width: 451px;
+        background-position: center;
+    }
+    .issue22{
+        padding-left: 96px;
+    }
+    .buttonsubsc{
+        margin-left: 155px;
+    }
+    .line8{
+        width: 754px;
+        margin-top: 11px;
+        margin-left: 120px;
+        height: 155px;
+    }
+    .photo81{
+        width: 290px;
+        height: 156px;
+    }
+    .photo82{
+        width: 290px;
+        height: 156px;
+    }
+    .photo83{
+        width: 290px;
+        height: 156px;
+    }
+    .line8text{
+        width: 878px;
+    }
+    .seeall1{
+        margin-left: 475px;
+    margin-top: 129px;
+    }
+    .news{
+        margin-top: 30px;
+        margin-left: 123px;
+    }
+    .line9{
+        width: 755px;
+        height: 264px;
+        margin-top: 26px;
+        margin-left: 122px;
+    }
+    .photo91{
+        width: 290px;
+        height: 156px;
+    }
+    .photo92{
+        width: 290px;
+        height: 156px;
+    }
+    .photo93{
+        width: 290px;
+        height: 156px;
+    }
+    .line10{
+        margin-left: 475px;
+        margin-top: 15px;
+    }
+    .emptyfooter{
+        width: 1157px;
+        height: 112px;
+        padding-top: 43px;
+        margin-top: 80px;
+        margin-left: -3px;
+    }
+}
+
+@media screen and (max-width: 1375px) and (min-width: 1190px){
+    .header1{
+        
+    } 
+    .X{
+        width: 29px;
+        margin-left: 34px;
+        margin-top: 29px;
+    }
+    .name{
+        margin-left: 371px;
+        margin-top: 36px;
+        width: 123px;
+        height: 25px;
+    }
+    .firstline{
+        width: 990px;
+        height: 455px;
+    }
+    .philipmartin{
+        background-position: center;
+    }
+    .dateline{
+        margin-top: 89px;
+    }
+    .date{
+        margin-left: 60px;
+        font-size: 10px;
+    }
+    .lifestyle{
+        margin-left: 200px;
+    }
+    .atvero{
+        margin-top: 19px;
+        padding-left: 86px;
+        width: 409px;
+        height: 9px;
+        line-height: 34px;
+    }
+    .atverotext{
+        font-size: 19px;
+        letter-spacing: 0px;
+    }
+    .atveo1{
+        width: 280px;
+        margin-top: 79px;
+        margin-left: 89px;
+    }
+    .atverotext1{
+        font-size: 10px;
+        letter-spacing: 0px;
+        line-height: 16px;
+    }
+    .readmore{
+        margin-top: 30px;
+        margin-left: 84px;
+        height: 50px;
+    }
+    .readmoreb{
+        height: 34px;
+    }
+
+    .featured{
+        margin-left: 119px;
+        margin-top: 39px;
+    }
+    .secondline{
+        width: 596px;
+        height: 440px;
+        margin-top: 8px;
+    }
+    .photoleftf{
+        margin-left: 0px;
+        width: 362px;
+        height: 240px;
+    }
+    .photorightf{
+        margin-left: 24px;
+        width: 362px;
+        height: 240px;
+    }
+    .line3{
+        width: 585px;
+        margin-left: 18px;
+        height: 137px;
+    }
+    .dateline3{
+        margin-top: 13px;
+    }
+    .lifestyle3{
+        margin-left: 219px;
+    }
+    .atvero3{
+        margin-top: -6px;
+        height: 49px;
+    }  
+    .atverotext3{
+        font-size: 14px;
+        line-height: 22px;
+    }  
+    .atveo13{
+        height: 50px;
+        margin-top: 10px;
+    }
+    .atverotext13{
+        font-size: 11px;
+        line-height: 17px;
+    }
+    .line4{
+        width: 574px;
+        height: 286px;
+        margin-top: 47px;
+        margin-left: 114px;
+    }
+    .photogirlf{
+        height: 157px;
+        width: 242px;
+    }
+    .photomagazinef{
+        height: 157px;
+        width: 242px;
+    }
+    .photoguysf{
+        height: 157px;
+        width: 242px;
+    }
+    .line5text{
+        width: 872px;
+    }
+    .line5left{
+        width: 176px;
+        margin-left: 18px;
+        margin-top: 17px;
+    }
+    .line5middle{
+        width: 177px;
+        margin-left: 23px;
+        margin-top: 17px;
+    }
+    .line5right{
+        width: 198px;
+        margin-left: 23px;
+        margin-top: 18px;
+    }
+    .lifestyle4{
+        margin-left: 93px;
+    }
+    .atvero4{
+        margin-left: 1px;
+        margin-top: 4px;
+    }
+    .atverotext4{
+        line-height: 20px;
+        font-size: 11px;
+    }
+    .line6{
+        width: 813px;
+        height: 95px;
+    }
+    .buttonseeall{
+        margin-top: 0px;
+    }
+    .line7{
+        width: 750px;
+        margin-top: -5px;
+        margin-left: 122px;
+        height: 288px;
+    }
+    .photowithcoffee{
+        width: 451px;
+        background-position: center;
+    }
+    .issue22{
+        padding-left: 78px;
+        padding-top: 38px;
+        width: 80%;
+        height: 37px;
+        margin-top: 67px;
+    }
+    .issue22text{
+        font-size: 23px;
+        line-height: 30px;
+        letter-spacing: 0px;
+    }
+    .buttonsubsc{
+        margin-left: 103px;
+        margin-top: 50px;
+    }
+
+    .interviews{
+        margin-left: 120px;
+        margin-top: 52px;
+    }
+    .line8{
+        width: 557px;
+        margin-top: 12px;
+        margin-left: 117px;
+        height: 243px;
+    }
+    .photo81f{
+        width: 238px;
+        height: 153px;
+    }
+    .photo82f{
+        width: 238px;
+        height: 153px;
+        margin-left: -5px;
+    }
+    .photo83f{
+        width: 238px;
+        height: 153px;
+        margin-left: -10px;
+    }
+    .line5left{
+
+    }
+    .line8text{
+        width: 878px;
+    }
+    .seeall1{
+        margin-left: 390px;
+        margin-top: 48px;
+    }
+    .news{
+        margin-top: 50px;
+        margin-left: 120px;
+    }
+    .line9{
+        width: 609px;
+        height: 247px;
+        margin-top: 22px;
+        margin-left: 116px;
+    }
+    .photo91f{
+        width: 240px;
+        height: 154px;
+    }
+    .photo92f{
+        width: 240px;
+        height: 154px;
+        margin-left: -2px;
+    }
+    .photo93f{
+        width: 240px;
+        height: 154px;
+        margin-left: -4px;
+    }
+    .line10{
+        margin-left: 390px;
+        margin-top: 44px;
+    }
+    .emptyfooter{
+        width: 994px;
+        height: 129px;
+        padding-top: 44px;
+        margin-top: 71px;
+        margin-left: -3px;
+    }
+}
+
+@media screen and (max-width: 1189px) and (min-width: 720px){
+    .header1{
+        width: 600px;
+        height: 69px;
+    } 
+    .X{
+        width: 37px;
+        margin-left: 19px;
+        margin-top: 16px;
+        height: 34px;
+    }
+    .name{
+        margin-left: 297px;
+        margin-top: 23px;
+        width: 114px;
+        height: 22px;
+    }
+    .firstline{
+        width: 820px;
+        height: 465px;
+    }
+    .philipmartin{
+        width: 411px;
+        height: 377px;
+    }
+    .black1{
+        height: 377px;
+    }
+    .dateline{
+        margin-top: 68px;
+    }
+    .date{
+        margin-left: 22px;
+        font-size: 14px;
+    }
+    .lifestyle{
+        margin-left: 273px;
+    }
+    .atvero{
+        margin-top: 10px;
+        padding-left: 26px;
+        width: 409px;
+        height: 9px;
+        line-height: 34px;
+    }
+    .atverotext{
+        font-size: 17px;
+        letter-spacing: 0px;
+    }
+    .atveo1{
+        width: 277px;
+        margin-top: 42px;
+        margin-left: 25px;
+    }
+    .atverotext1{
+        font-size: 12px;
+        letter-spacing: 0px;
+        line-height: 16px;
+    }
+    .readmore{
+        margin-top: 40px;
+        margin-left: 24px;
+        height: 55px;
+    }
+    .readmoreb{
+        height: 42px;
+        width: 210px;
+    }
+
+    .featured{
+        margin-left: 26px;
+        margin-top: -26px;
+    }
+    .featuredtext{
+        font-size: 17px;
+    }
+    .secondline{
+        width: 452px;
+        height: 453px;
+        margin-top: 15px
+    }
+    .photoleft{
+        margin-left: 26px;
+    }
+    .photoright{
+        margin-left: 33px;
+    }
+    .photoleftf{
+        margin-left: 0px;
+        width: 366px;
+        height: 244px;
+    }
+    .photorightf{
+        margin-left: 0px;
+        width: 367px;
+        height: 243px;
+    }
+    .line3{
+        width: 585px;
+        margin-left: 18px;
+        height: 137px;
+    }
+    .dateline3{
+        margin-top: 13px;
+        margin-left: 0px;
+    }
+    .lifestyle3{
+        margin-left: 219px;
+    }
+    .atvero3{
+        margin-top: -6px;
+        height: 49px;
+    }  
+    .atverotext3{
+        font-size: 14px;
+        line-height: 22px;
+    }  
+    .atveo13{
+        height: 50px;
+        margin-top: 10px;
+    }
+    .atverotext13{
+        font-size: 11px;
+        line-height: 17px;
+    }
+    .line4{
+        width: 574px;
+        height: 286px;
+        margin-top: 35px;
+        margin-left: 26px;
+    }
+    .photogirlf{
+        height: 155px;
+        width: 235px
+    }
+    .photomagazinef{
+        height: 155px;
+        width: 235px
+    }
+    .photomagazine{
+        margin-left: 29px;
+    }
+    .photoguys{
+        margin-left: 31px;
+    }
+    .photoguysf{
+        height: 155px;
+        width: 235px
+    }
+    .line5text{
+        width: 872px;
+    }
+    .line5left{
+        width: 176px;
+        margin-left: 18px;
+        margin-top: 17px;
+    }
+    .line5middle{
+        width: 177px;
+        margin-left: 23px;
+        margin-top: 17px;
+    }
+    .line5right{
+        width: 198px;
+        margin-left: 23px;
+        margin-top: 18px;
+    }
+    .lifestyle4{
+        margin-left: 93px;
+    }
+    .atvero4{
+        margin-left: 1px;
+        margin-top: 4px;
+    }
+    .atverotext4{
+        line-height: 20px;
+        font-size: 11px;
+    }
+    .line6{
+        width: 643px;
+        height: 148px;
+    }
+    .buttonseeall{
+        margin-top: 0px;
+    }
+    .line7{
+        width: 767px;
+        margin-top: -10px;
+        margin-left: 26px;
+        height: 294px;
+    }
+    .photowithcoffee{
+        width: 451px;
+        background-position: center;
+    }
+    .issue22{
+        padding-left: 78px;
+        padding-top: 38px;
+        width: 80%;
+        height: 37px;
+        margin-top: 67px;
+    }
+    .issue22text{
+        font-size: 23px;
+        line-height: 30px;
+        letter-spacing: 0px;
+    }
+    .buttonsubsc{
+        margin-left: 103px;
+        margin-top: 50px;
+    }
+
+    .interviews{
+        margin-left: 26px;
+        margin-top: 64px;
+    }
+
+    .textinterviews{
+        font-size: 16px;
+    }
+    .line8{
+        width: 557px;
+        margin-top: 26px;
+        margin-left: 25px;
+        height: 269px;
+    }
+    .photo81f{
+        width: 236px;
+        height: 154px;
+    }
+    .photo82f{
+        width: 236px;
+        height: 154px;
+        margin-left: 0px;
+    }
+    .photo83f{
+        width: 236px;
+        height: 154px;
+        margin-left: 3px;
+    }
+    .line5left{
+
+    }
+    .line8text{
+        width: 878px;
+    }
+    .seeall1{
+        margin-left: 304px;
+        margin-top: 48px;
+    }
+    .news{
+        margin-top: 50px;
+        margin-left: 26px;
+    }
+    .newstext{
+        font-size: 16px;
+    }
+    .line9{
+        width: 609px;
+        height: 268px;
+        margin-top: 29px;
+        margin-left: 25px;
+    }
+    .photo91f{
+        width: 236px;
+        height: 154px;
+    }
+    .photo92f{
+        width: 236px;
+        height: 154px;
+        margin-left: 0px;
+    }
+    .photo92{
+        margin-left: 30px;
+    }
+    .photo93{
+        margin-left: 32px;
+    }
+    .photo93f{
+        width: 236px;
+        height: 154px;
+        margin-left: 0px;
+    }
+    .line10{
+        margin-left: 306px;
+        margin-top: 44px;
+    }
+    .emptyfooter{
+        width: 823px;
+        height: 180px;
+        padding-top: 44px;
+        margin-top: 78px;
+        margin-left: -3px;
+    }
+}
+
+@media screen and (max-width: 719px) and (min-width: 320px){
+    .header1{
+        width: 600px;
+        height: 53px;
+    } 
+    .X{
+        width: 33px;
+        margin-left: 11px;
+        margin-top: 10px;
+        height: 30px;
+    }
+    .name{
+        margin-left: 40px;
+        margin-top: 16px;
+        width: 88px;
+        height: 16px;
+    }
+    .firstline{
+        width: 820px;
+        height: 433px;
+        flex-direction: column;
+    }
+    .philipmartin{
+        width: 258px;
+        height: 377px;
+    }
+    .black1{
+        height: 197px;
+        width: 257px;
+    }
+    .dateline{
+        margin-top: 0px;
+    }
+    .date{
+        margin-left: 10px;
+        font-size: 9px;
+    }
+    .lifestyle{
+        margin-left: 273px;
+    }
+    .atvero{
+        margin-top: -3px;
+        padding-left: 9px;
+        width: 409px;
+        height: 9px;
+        line-height: 34px;
+    }
+    .atverotext{
+        font-size: 13px;
+        letter-spacing: 0px;
+    }
+    .atveo1{
+        width: 248px;
+        margin-top: 35px;
+        margin-left: 9px;
+    }
+    .atverotext1{
+        font-size: 10px;
+        letter-spacing: 0px;
+        line-height: 16px;
+    }
+    .readmore{
+        margin-top: 11px;
+        margin-left: 24px;
+        height: 55px;
+    }
+    .readmoreb{
+        height: 30px;
+        width: 160px;
+    }
+
+    .featured{
+        margin-left: 9px;
+        margin-top: 25px;
+    }
+    .featuredtext{
+        font-size: 13px;
+    }
+    .secondline{
+        width: 439px;
+        height: 616px;
+        margin-top: 4px;
+        flex-direction: column;
+    }
+    .photoleft{
+        margin-left: 9px;
+        width: 237px;
+    }
+    .photoright{
+        margin-left: 9px;
+        width: 237px;
+    }
+    .photoleftf{
+        margin-left: 0px;
+        width: 237px;
+        height: 154px;
+    }
+    .photorightf{
+        margin-left: 0px;
+        width: 237px;
+        height: 154px;
+        margin-top: 13px;
+    }
+    .line3{
+        width: 585px;
+        margin-left: 18px;
+        height: 137px;
+    }
+    .dateline3{
+        margin-top: 13px;
+        margin-left: 0px;
+    }
+    .lifestyle3{
+        margin-left: 88px;
+    }
+    .atvero3{
+        margin-top: -6px;
+        height: 49px;
+    }  
+    .atverotext3{
+        font-size: 14px;
+        line-height: 22px;
+    }  
+    .atveo13{
+        height: 50px;
+        margin-top: 10px;
+    }
+    .atverotext13{
+        font-size: 11px;
+        line-height: 17px;
+    }
+    .line4{
+        width: 547px;
+        height: 680px;
+        margin-top: 35px;
+        margin-left: 9px;
+        flex-direction: column;
+    }
+    .photogirlf{
+        height: 155px;
+        width: 235px
+    }
+    .photomagazinef{
+        height: 169px;
+        width: 235px
+    }
+    .photomagazine{
+        margin-left: 0px;
+        margin-top: 40px;
+    }
+    .photoguys{
+        margin-left: 0px;
+        margin-top: 44px;
+    }
+    .photoguysf{
+        height: 172px;
+        width: 235px
+    }
+    .line5text{
+        width: 872px;
+    }
+    .line5left{
+        width: 176px;
+        margin-left: 18px;
+        margin-top: 17px;
+    }
+    .line5middle{
+        width: 177px;
+        margin-left: 23px;
+        margin-top: 17px;
+    }
+    .line5right{
+        width: 198px;
+        margin-left: 23px;
+        margin-top: 18px;
+    }
+    .lifestyle4{
+        margin-left: 93px;
+    }
+    .atvero4{
+        margin-left: 1px;
+        margin-top: 4px;
+    }
+    .atverotext4{
+        line-height: 20px;
+        font-size: 11px;
+    }
+    .line6{
+        width: 80px;
+        height: 114px;
+    }
+    .buttonseeall{
+        margin-top: 20px;
+    }
+    .line7{
+        width: 767px;
+        margin-top: -10px;
+        margin-left: 0px;
+        height: 336px;
+        flex-direction: column;
+    }
+    .photowithcoffee{
+        width: 258px;
+        height: 180px;
+        background-position: center;
+    }
+    .blackissue{
+        width: 257px;
+        height: 154px;
+    }
+    .issue22{
+        padding-left: 49px;
+        padding-top: 36px;
+        width: 100%;
+        height: 25px;
+        margin-top: 0px;
+    }
+    .issue22text{
+        font-size: 17px;
+        line-height: 30px;
+        letter-spacing: 0px;
+    }
+    .buttonsubsc{
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+
+    .interviews{
+        margin-left: 10px;
+        margin-top: 36px;
+    }
+
+    .textinterviews{
+        font-size: 14px;
+    }
+    .line8{
+        width: 557px;
+        margin-top: 4px;
+        margin-left: 9px;
+        height: 646px;
+        flex-direction: column;
+    }
+    .photo81f{
+        width: 236px;
+        height: 154px;
+    }
+    .photo82, .photo83{
+        margin-left: 0px;
+        margin-top: 43px;
+    }
+    .photo82f{
+        width: 236px;
+        height: 154px;
+        margin-left: 0px;
+    }
+    .photo83f{
+        width: 236px;
+        height: 154px;
+        margin-left: 3px;
+    }
+    .line5left{
+
+    }
+    .line8text{
+        width: 878px;
+    }
+    .seeall1{
+        margin-left: 20px;
+        margin-top: 48px;
+    }
+    .news{
+        margin-top: 36px;
+        margin-left: 9px;
+    }
+    .newstext{
+        font-size: 14px;
+    }
+    .line9{
+        width: 609px;
+        height: 647px;
+        margin-top: 15px;
+        margin-left: 9px;
+        flex-direction: column;
+    }
+    .photo91f{
+        width: 236px;
+        height: 154px;
+    }
+    .photo92f{
+        width: 236px;
+        height: 154px;
+        margin-left: 0px;
+    }
+    .photo92{
+        margin-top: 36px;
+        margin-left: 2px;
+    }
+    .photo93{
+        margin-top: 46px;
+        margin-left: 0px;
+    }
+    .photo93f{
+        width: 236px;
+        height: 154px;
+        margin-left: 0px;
+    }
+    .line10{
+        margin-left: 25px;
+        margin-top: 44px;
+    }
+    .emptyfooter{
+        width: 258px;
+        height: 129px;
+        padding-top: 41px;
+        margin-top: 36px;
+        margin-left: -3px;
+    }
+} */

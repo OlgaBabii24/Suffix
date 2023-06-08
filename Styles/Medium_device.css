@@ -1,0 +1,150 @@
+@media all and (max-width: 1199px) {
+
+    .date, .lifestyle{
+        font-size: 14px;
+    }
+    .atverotext {
+        font-size: 18px;
+    }
+    .atverotext1{
+        font-size: 14px;
+        line-height: 24px;  
+    }
+    .textreadmore{
+        font-size: 14px;
+    }
+    .issue22text{
+        font-size: 26px;
+    }
+    .textsubsc{
+        font-size: 12px;
+    }
+    
+}
+
+@media all and (max-width: 999px) {
+    .name{
+        width: 120px;
+    }
+    .dateline{
+        margin-top: 20px;
+    }
+    .date, .lifestyle{
+        font-size: 10px;
+    }
+    .atverotext {
+        font-size: 14px;
+    }
+    .atverotext1 {
+        font-size: 10px;
+        line-height: 18px;
+    }
+    .textreadmore {
+        font-size: 10px;
+    }
+    .readmoreb {
+        width: 120px;
+        height: 40px;
+    }
+    .featuredtext {
+        font-size: 12px;
+    }
+    .atverotext3 {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .atverotext13 {
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .date4{
+        font-size: 7px;
+    }
+    .lifestyle4{
+        font-size: 7px;
+    }
+    .atverotext4 {
+        font-size: 10px;
+        line-height: 18px;
+    }
+    .issue22text {
+        font-size: 20px;
+    }
+    .textsubsc {
+        font-size: 10px;
+    }
+    .buttonsubsc {
+        width: 120px;
+        height: 40px;
+    }
+}
+
+@media all and (max-width: 767px) {
+    .X{
+        width: 20px;
+    }
+    .name {
+        width: 80px;
+    }
+    .firstline{
+        flex-direction: column;
+    }
+    .philipmartin {
+        width: 100%;
+    }
+    .black1 {
+        width: 100%;
+    }
+    .readmore{
+        padding-bottom: 20px;
+    }
+    .secondline {
+        flex-direction: column;
+    }
+    .photoleft {
+        width: 100%;
+        padding-bottom: 20px;
+    }
+    .photoright {
+        width: 100%;
+    }
+    .line4 .container-small {
+        flex-direction: column;
+    }
+    .photogirl, .photomagazine, .photoguys{
+        width: 100%;
+    }
+    .date4 {
+        font-size: 8px;
+    }
+    .lifestyle4{
+        font-size: 8px;
+    }
+    .atverotext4 {
+        font-size: 12px;
+    }
+    .container-smalladd {
+        width: 100%;
+    }
+    .line7{
+        flex-direction: column;
+    }
+    .photowithcoffee, .blackissue{
+        width: 100%;
+    }
+    .issue22text{
+        padding-top: 20px;
+    }
+    .buttonsubsc{
+        margin-bottom: 20px;
+    }
+    .line8, .line9{
+        flex-direction: column;
+    }
+    .photo81, .photo82, .photo83 {
+        width: 100%;
+    }
+    .photo91, .photo92, .photo93 {
+        width: 100%;
+    }
+}
